@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import api from '../api/api';
 import { TextField, Button, MenuItem, CircularProgress } from '@mui/material';
-
+//adminProductForm.jsx
 
 export default function AdminProductForm({ onCreated }) {
   const [form, setForm] = useState({ title: '', description: '', price: '', stock: '', category: '' });
